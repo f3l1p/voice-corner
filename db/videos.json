@@ -1,0 +1,100 @@
+[{
+        "id": 1,
+        "name": "Singing Warm Up - Baritone Range",
+        "link": "https://www.youtube.com/embed/zbxkwedn5l0",
+        "range": "baritone",
+        "category": "full range",
+        "description": "Full range warm up, from stacatto excercises graduatly into melismatic excercises",
+        "gender": "male"
+    },
+    {
+        "id": 2,
+        "name": "video para tenor",
+        "link": "https://www.youtube.com/embed/EawDqFL0CXE",
+        "range": "tenor",
+        "category": "daily warm up",
+        "description": "Daily warm up excersises for tenors, in this video you will find some excercises for every day practice",
+        "gender": "both"
+    },
+    {
+        "id": 3,
+        "name": "video para alto",
+        "link": "https://www.youtube.com/embed/N8W17MXgvOQ",
+        "range": "alto",
+        "category": "full range",
+        "description": "Full range warm up, from stacatto excercises graduatly into melismatic excercises for alto singers",
+        "gender": "female"
+    },
+    {
+        "id": 4,
+        "name": "video para saber tu rango vocal",
+        "link": "https://www.youtube.com/embed/YtRTAq1uPzc",
+        "range": "know your range",
+        "category": "know your voice",
+        "description": "Video en el cual podras entender y descubrir a que rango pertenece tu voz",
+        "gender": "both"
+    },
+    {
+        "id": 5,
+        "name": "video para saber tu rango vocal",
+        "link": "https://www.youtube.com/embed/e7a-2ZmF07M?start=483",
+        "range": "know your range",
+        "category": "know your voice",
+        "description": "Video en el cual podras entender y descubrir a que rango pertenece tu voz",
+        "gender": "both"
+    },
+    {
+        "id": 6,
+        "name": "Vocal Warm Ups for Tenors and Belters (Men)",
+        "link": "https://www.youtube.com/embed/SihxdoW9Ic0",
+        "range": "tenor",
+        "category": "full range",
+        "description": "full warm up for tenors and male belters or singers of contemporary music",
+        "gender": "male"
+    },
+    {
+        "id": 7,
+        "name": "Vocal Warm Ups for Tenors and Belters (Men)",
+        "link": "https://www.youtube.com/embed/SEdCYhnStrk",
+        "range": "tenor",
+        "category": "breath",
+        "description": "full warm up for tenors and male belters or singers of contemporary music",
+        "gender": "male"
+    },
+    {
+        "id": 8,
+        "name": "Daily singing vocal warm up, with demonstration",
+        "link": "https://www.youtube.com/embed/YEhHI_ix51w",
+        "range": "full range",
+        "category": "daily warm up",
+        "description": "20 minute professional daily singing vocal warm up. Use this anytime, anyplace. Warm up for singing class, warm up for an audition, or warm up so you can give your best performance while singing in the shower!",
+        "gender": "both"
+    },
+    {
+        "id": 9,
+        "name": "Voice Techniques - Vocal Slides",
+        "link": "https://www.youtube.com/embed/KWzR1lzW-EM",
+        "range": "all",
+        "category": "slides",
+        "description": "I am going to share one of my favourite voice techniques, vocal slides. Vocal slides or sirens are a great because when you do them you dont really think of them as singing.  They have a relaxing affect on the muscles in your throat.",
+        "gender": "both"
+    },
+    {
+        "id": 10,
+        "name": "Singing Warm Up - Soprano Full Range",
+        "link": "https://www.youtube.com/embed/54w9PlMECkI",
+        "range": "soprano",
+        "category": "full range",
+        "description": "Full Range Soprano Singing Warm Up. Starts easy enough with some gentle descending scales, quickly moves on to smooth and somewhat faster arpeggio/scale combos.  Finishes up with some lip trill, range development exercises and pure vowel exercises in the upper register.",
+        "gender": "female"
+    },
+    {
+        "id": 11,
+        "name": "Daily Singing Warm Up - Baritone",
+        "link": "https://www.youtube.com/embed/-6-0c1RguQc",
+        "range": "baritone",
+        "category": "daily warm up",
+        "description": "Daily Warm Up - Baritone - Focus on 'the Break'",
+        "gender": "male"
+    }
+]

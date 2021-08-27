@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>voice corner</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+</head>
+
+<body id="myBody">
+    <!-- MODAL -->
+    <div id="myModal"></div>
+    <div id="homePage">
+        <!-- HOME PAGE -->
+        <nav class="
+					navbar navbar-expand-lg navbar-light
+					bg-white
+					shadow
+					sticky-top
+					d-flex
+					justify-content-between
+				">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo-3.png" width="250" alt="Singer`s Corner logo" />
+            </a>
+
+            <!-- SEARCHBAR -->
+            <form id="searchForm" class="form-inline my-2 my-lg-0 ml-4">
+                <input id="searchInput" name="search" type="text" placeholder="Search" class="form-control mr-sm-0" />
+                <button id="btnSearch" type="submit" class="btn btn-light ml-0 border">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="16"
+							height="16"
+							fill="currentColor"
+							class="bi bi-search"
+							viewBox="0 0 16 16"
+						>
+							<path
+								d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+							/>
+						</svg>
+					</button>
+            </form>
+            <div>
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="row align-items-center mr-1">
+                            <p id="helloUser" class="m-2"></p>
+                            <div class="d-inline p-2">
+                                <img style="width: 40px" src="./assets/user-icon.png" />
+                            </div>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a id="logOut" class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <br />
+        <br />
+
+        <!-- VIDEO CATALOG -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- LEFT SIDE -->
+                <div id="checkWraper" class="col-3 ml-3">
+                    <div class="position-fixed position-sticky">
+                        <form id="checkSearch">
+                            <!-- By Range -->
+                            <div class="card shadow mb-4" style="width: 200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">by Range</h5>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="know your range" id="defaultCheck1" />know your range
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="full range" id="defaultCheck1" />full range
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="baritone" id="defaultCheck1" />baritone
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="tenor" id="defaultCheck1" />tenor
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="alto" id="defaultCheck1" />alto
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="soprano" id="defaultCheck1" />soprano
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="mezzo-soprano" id="defaultCheck1" />mezzo-soprano
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- By Category -->
+                            <div class="card shadow mb-4" style="width: 200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">by Category</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="daily warm up" id="defaultCheck1" />daily warm up
+                                    </div>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="breath" id="defaultCheck1" />breath
+                                    </div>
+                                    <!-- <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="vocal-slide" id="defaultCheck1" />vocal slides
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="tongue trill" id="defaultCheck1" />tongue trill
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Lip buzz" id="defaultCheck1" />Lip buzz
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Humming" id="defaultCheck1" />Humming
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="Yawn" id="defaultCheck1" />Yawn
+                                    </div> -->
+                                </div>
+                            </div>
+                            <!-- By Gender -->
+                            <div class="card shadow mb-4" style="width: 200px">
+                                <div class="card-body">
+                                    <h5 class="card-title">by Gender</h5>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="both" id="defaultCheck1" />both
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="male" id="defaultCheck1" />male
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" />female
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-danger">
+									Apply Filter
+								</button>
+                        </form>
+                        <!-- By Range -->
+                    </div>
+                </div>
+                <!-- RIGHT SIDE -->
+                <div class="col-8">
+                    <p id="errorMsg"></p>
+                    <div id="catalog" class="row" style="display: none"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="./js/globals.js"></script>
+    <script src="js/producto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

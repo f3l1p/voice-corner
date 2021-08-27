@@ -1,0 +1,38 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.bg-logo {
+    background-image: url("./assets/logo-2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card-text {
+    opacity: 0.6;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+#cardFooter {
+    background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    iframe {
+        height: 13em;
+    }
+    .card {
+        width: 50%;
+    }
+}
