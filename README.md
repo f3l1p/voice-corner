@@ -1,9 +1,15 @@
 # Voice-corner
 
-- run with live-server, could be with Visual Studio Code
-
-- Local Website that try to have a video library of vocal excersises. For accesibility have searchbar and checkboxes. 
+- Website that have a video library for learn and practice singing. The website contains a searchbar and checkboxes for accesibility in the filter process. 
 
 # Technologies
 
-- Javascript
+This project was created with:
+
+- Vanilla Javascript
+
+- CSS
+
+# Setup
+
+- run with live-server, could be with Visual Studio Code.
