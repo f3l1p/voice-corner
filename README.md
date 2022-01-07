@@ -1,8 +1,10 @@
 # Voice-corner
 
-- Website that have a video library for learn and practice singing. The website contains a searchbar and checkboxes for accesibility in the filter process. 
+- Website that have a video library for learn and practice singing. The website contains a searchbar and checkboxes for accesibility in the filter process.
 
-# Technologies
+## Preview
+
+## Technologies
 
 This project was created with:
 
@@ -10,6 +12,6 @@ This project was created with:
 
 - CSS
 
-# Setup
+## Setup
 
 - run with live-server, could be with Visual Studio Code.
